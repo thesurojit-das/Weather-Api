@@ -25,6 +25,8 @@ const options = {
       wind_degrees.innerHTML = response.wind_degrees
       sunrise.innerHTML = response.sunrise
       sunset.innerHTML = response.sunset
+      console.log(response.sunrise);
+      console.log(response.sunset);
     })
     .catch(err => console.error(err));
   }
